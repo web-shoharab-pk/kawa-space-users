@@ -1,0 +1,74 @@
+.people_card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gender {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0px 4px;
+}
+
+.ac_gender {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin: 0px 4px;
+}
+.ac_gender::first-letter,
+.gender::first-letter {
+  text-transform: capitalize;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 135%;
+  margin: 4px 0px;
+}
+.ac_name {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 135%;
+  margin: 4px 0px;
+  color: #fff;
+}
+
+.email {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  color: #e16259;
+  margin: 8px 0px;
+}
+
+.ac_email {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  color: #fff;
+  margin: 8px 0px;
+}
+
+.active_card {
+  width: 100%;
+  height: 100%;
+  background: #a259ff;
+  color: white;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color_white {
+  color: white;
+}

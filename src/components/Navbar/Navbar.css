@@ -1,0 +1,16 @@
+body {
+  background: #e5e5e5;
+}
+
+.nav_option {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000000;
+  margin: 0px 24px;
+}
+
+.active_nav{
+    border-bottom: 2px solid #E16259;
+}
